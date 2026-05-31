@@ -102,4 +102,4 @@ This project is committed daily as part of an active learning log. Each commit r
 
 **Aman** — [@not-Lucifer](https://github.com/not-Lucifer)
 
-> B.Tech CSE Student | Unity Dev | Founder of [CRIGS](https://github.com/not-Lucifer) | Lucilock on YouTube
+> B.Tech CSE Student | Unity Dev 
