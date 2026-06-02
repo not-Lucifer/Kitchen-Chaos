@@ -78,6 +78,8 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 2 | Kitchen counters, interaction system |
 | Day 3 | Player Pick Up , C# interfaces|
 | Day 4 | Container and Cutting Counters , InteractAlternate|
+| Day 5 | Adding Progress Bar in World Canvas|
+
 ---
 
 ## 📚 Learning Objectives
