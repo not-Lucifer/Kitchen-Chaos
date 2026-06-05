@@ -92,6 +92,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4361746703480212831, guid: 4cb01cf86c243604b9b32043400dc4d8, type: 3}
+      propertyPath: mode
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8702265760270993226, guid: 4cb01cf86c243604b9b32043400dc4d8, type: 3}
       propertyPath: hasProgressGameObject
       value: 
