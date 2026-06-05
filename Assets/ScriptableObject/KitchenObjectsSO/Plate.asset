@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d046fd871f43eb14883cc5dce67ec32e, type: 3}
   m_Name: Plate
   m_EditorClassIdentifier: Assembly-CSharp::KitchenObjectsSO
-  prefab: {fileID: 0}
+  prefab: {fileID: 5774990948156708846, guid: 886d9104785465e4fb1da15757c66fd3, type: 3}
   sprite: {fileID: 21300000, guid: 3928afb5321bb3d489bbd4ac581b29a2, type: 3}
   objectName: Plate
