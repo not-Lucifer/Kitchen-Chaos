@@ -80,7 +80,7 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 4 | Container and Cutting Counters , InteractAlternate|
 | Day 5 | Adding Progress Bar in World Canvas|
 | Day 6 | Improving and Refatoring Code, Fixing Counter Behaviour|
-
+| Day 7 |Trash And Stove Counnter|
 ---
 
 ## 📚 Learning Objectives
