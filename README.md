@@ -82,6 +82,7 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 6 | Improving and Refatoring Code, Fixing Counter Behaviour|
 | Day 7 |Trash And Stove Counter|
 | Day 8 |Frying and Burning Recipes|
+| Day 9 |Animation and Progress Bar UI|
 ---
 
 ## 📚 Learning Objectives
