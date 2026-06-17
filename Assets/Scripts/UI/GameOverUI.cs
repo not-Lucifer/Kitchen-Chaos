@@ -8,7 +8,7 @@ public class GameOverUI : MonoBehaviour
 
     private void Start()
     {
-        KitchenChaosGameManager.Instance.OnStateChnaged += KitchenChaosGameManager_OnStateChnaged;
+        KitchenChaosGameManager.Instance.OnStateChanged += KitchenChaosGameManager_OnStateChnaged;
         Hide();
     }
 

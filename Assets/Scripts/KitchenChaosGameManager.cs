@@ -5,7 +5,7 @@ public class KitchenChaosGameManager : MonoBehaviour
 {
     public static KitchenChaosGameManager Instance {  get; private set; }
 
-    public event EventHandler OnStateChnaged;
+    public event EventHandler OnStateChanged;
     public event EventHandler OnGamePaused;
     public event EventHandler OnGameUnpaused;
 
@@ -19,7 +19,7 @@ public class KitchenChaosGameManager : MonoBehaviour
     }
 
     private State state;
-    private float waitingToStartTimer = 1f;
+   
     private float countdownToStartTimer = 3f;
     private float gamePlayingTimer;
     private float gamePlayingTimerMAX = 120f;
@@ -28,6 +28,18 @@ public class KitchenChaosGameManager : MonoBehaviour
     private void Start()
     {
         GameInput.Instance.OnPauseAction += GameInput_OnPauseAction;
+
+        GameInput.Instance.OnInteractAction += GameInput_OnInteractAction;
+    }
+
+    private void GameInput_OnInteractAction(object sender, EventArgs e)
+    {
+        if( state == State.WaitingToStart )
+        {
+            state = State.CountdownToStart;
+
+            OnStateChanged?.Invoke(this, EventArgs.Empty);
+        }
     }
 
     private void GameInput_OnPauseAction(object sender, EventArgs e)
@@ -45,12 +57,7 @@ public class KitchenChaosGameManager : MonoBehaviour
         switch (state)
         {
             case State.WaitingToStart:
-                waitingToStartTimer -= Time.deltaTime;
-                if (waitingToStartTimer < 0f)
-                {
-                    state = State.CountdownToStart;
-                    OnStateChnaged.Invoke(this, EventArgs.Empty);
-                }
+                
                 break;
             case State.CountdownToStart:
                 countdownToStartTimer -= Time.deltaTime;
@@ -58,7 +65,7 @@ public class KitchenChaosGameManager : MonoBehaviour
                 {
                     gamePlayingTimer = gamePlayingTimerMAX; 
                     state = State.GamePlaying;
-                    OnStateChnaged.Invoke(this, EventArgs.Empty);
+                    OnStateChanged.Invoke(this, EventArgs.Empty);
                 }
                 break;
             case State.GamePlaying:
@@ -66,7 +73,7 @@ public class KitchenChaosGameManager : MonoBehaviour
                 if (gamePlayingTimer < 0f)
                 {
                     state = State.GameOver;
-                    OnStateChnaged.Invoke(this, EventArgs.Empty);
+                    OnStateChanged.Invoke(this, EventArgs.Empty);
                 }
                 break;
             case State.GameOver:
