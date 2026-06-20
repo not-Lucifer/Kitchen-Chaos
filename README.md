@@ -83,6 +83,7 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 7 |Trash And Stove Counter|
 | Day 8 |Frying and Burning Recipes|
 | Day 9 |Animation and Progress Bar UI|
+| Day 10 |Adding Plate counter and spawning logic|
 ---
 
 ## 📚 Learning Objectives
