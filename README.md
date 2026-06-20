@@ -90,7 +90,9 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 14 |Adding Delivery Manager UI|
 | Day 15 |Adding Music and SFX|
 | Day 16 |Adding Menu and Loading Scene|
-
+| Day 17 |Adding Options UI|
+| Day 18 |Adding Key Rebinding Option|
+| Day 19 |Polishing and Release Final Game Version|
 ---
 
 ## 📚 Learning Objectives
