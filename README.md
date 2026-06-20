@@ -86,6 +86,9 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 10 |Adding Plate counter and spawning logic|
 | Day 11 |Refactoring Plate logic and item visual|
 | Day 12 |Delivvery Counter and Shader Graph |
+| Day 13 |Adding Delivery Manager|
+| Day 14 |Adding Delivery Manager UI|
+
 ---
 
 ## 📚 Learning Objectives
