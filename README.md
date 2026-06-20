@@ -88,6 +88,7 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 12 |Delivvery Counter and Shader Graph |
 | Day 13 |Adding Delivery Manager|
 | Day 14 |Adding Delivery Manager UI|
+| Day 15 |Adding Menu and Loading Scene|
 
 ---
 
