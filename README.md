@@ -83,6 +83,16 @@ This project is committed daily as part of an active learning log. Each commit r
 | Day 7 |Trash And Stove Counter|
 | Day 8 |Frying and Burning Recipes|
 | Day 9 |Animation and Progress Bar UI|
+| Day 10 |Adding Plate counter and spawning logic|
+| Day 11 |Refactoring Plate logic and item visual|
+| Day 12 |Delivvery Counter and Shader Graph |
+| Day 13 |Adding Delivery Manager|
+| Day 14 |Adding Delivery Manager UI|
+| Day 15 |Adding Music and SFX|
+| Day 16 |Adding Menu and Loading Scene|
+| Day 17 |Adding Options UI|
+| Day 18 |Adding Key Rebinding Option|
+| Day 19 |Polishing and Release Final Game Version|
 ---
 
 ## 📚 Learning Objectives
